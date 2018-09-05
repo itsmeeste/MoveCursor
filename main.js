@@ -7,6 +7,17 @@ function Setup()
 
 }
 
+function HideEnter()
+{
+    console.log("sdfsdf");
+    document.getElementById("home").style.display = "none";
+}
+function HideExit()
+{
+
+    document.getElementById("home").style.display = "block";
+}
+
 function followMouse(event)
 {
     //console.log("ss");
@@ -28,7 +39,8 @@ function followMouse(event)
     
     
     var s = "rgb(" + r + "," + g + "," + b + ")";
-    document.getElementById("home").style.color = s;
+    document.getElementById("home").style.backgroundColor = s;
+    document.getElementById("para").innerText = "sfsdfsd";
     //console.log("X: " +x + ", Y: " + y);
 }
 
